@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'com.bskyb.internettv.poc'
+version '1.0-SNAPSHOT'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile('org.junit.jupiter:junit-jupiter:5.4.2')
+    testCompile("org.assertj:assertj-core:3.11.1")
+}
